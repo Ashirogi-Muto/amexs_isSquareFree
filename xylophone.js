@@ -12,5 +12,5 @@ function countKeys(inputArray) {
     return finalNotesCount.length;
 }
 
-var checkNotes = countKeys([5, 10, 20, 30, 11, 30, 24, 38, 5, 2, 9]);
+var checkNotes = countKeys([1, 8, 15]);
 console.log(checkNotes);
