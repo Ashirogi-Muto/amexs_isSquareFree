@@ -1,8 +1,4 @@
 function isSqureFree(inputString) {
-    if (inputString.length === 0 || inputString.length > 50) {
-        return 'invalid string length';
-    }
-
     var firstChar = inputString.charAt(0);
     if (inputString.length % 4 === 0) {
         var same = checkIfSame(inputString, firstChar);
